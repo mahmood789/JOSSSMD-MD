@@ -128,29 +128,10 @@ The tool aims to make these standard and advanced meta-analysis techniques acces
 
 A sample CSV file (`sample_data_continuous.csv`) is included in this repository to demonstrate the required data format and allow testing of the application's features.
 
-## Testing
-
-*(This section assumes automated tests using `testthat` and `shinytest2` will be implemented)*
-
-Automated tests should be implemented to verify core functionality (e.g., correct calculation of pooled effects under different settings, plot generation without errors). To run the tests (once created, typically in a `tests/` directory):
-
-1.  Ensure necessary testing packages (`testthat`, `shinytest2`) are installed (ideally via `renv`).
-2.  Open R in the project directory.
-3.  Run the appropriate command:
-    ```R
-    # Example using testthat
-    # testthat::test_dir("tests/testthat")
-
-    # Example using shinytest2
-    # shinytest2::test_app()
-    ```
-    *(Modify commands based on your testing setup)*
-
 ## Contributing
 
-Contributions are welcome! Please report issues or suggest features via the [repository issue tracker]([Link to your repository issues page, e.g., https://github.com/your_username/MetaAnalysisAppSMD/issues]).
+Contributions are welcome! 
 
-*(Optional: Create a `CONTRIBUTING.md` file for detailed guidelines.)*
 
 ## Authors
 
@@ -173,9 +154,9 @@ This project is licensed under the Apache License, Version 2.0 - see the [LICENS
 
 If you use this software in your research, please cite it as follows:
 
-*(Placeholder - Replace with JOSS paper citation once accepted)*
-> Ahmad M., Noot A., Homhuan P., Kour M. (2025). MetaAnalysisApp: An Interactive R Dashboard for Continuous Outcome Meta-Analysis. *Journal of Open Source Software*, [Volume]([Issue]), [ArticleNumber]. [https://doi.org/[JOSS_DOI]]()
 
-*(Replace bracketed info upon publication)*
+> Ahmad M., Noori A., Homhuan P., Kour M. (2025). MetaAnalysisApp: An Interactive R Dashboard for Continuous Outcome Meta-Analysis. *Journal of Open Source Software*, [Volume]([Issue]), [ArticleNumber]. [https://doi.org/[JOSS_DOI]]()
 
-You should also cite the underlying R packages used for the analysis, particularly `meta` [@metaPackage], `metafor` [@metaforPackage], `dmetar` [@dmetarPackage], and `bayesmeta` [@bayesmetaPackage], `ggplot2` [@ggplot2], `ggbeeswarm` [@ggbeeswarm] as appropriate. Refer to the documentation of these packages for their preferred citation formats (e.g., using `citation("meta")` in R).
+
+
+Underlying R packages used for the analysis, particularly `meta` [@metaPackage], `metafor` [@metaforPackage], `dmetar` [@dmetarPackage], and `bayesmeta` [@bayesmetaPackage], `ggplot2` [@ggplot2], `ggbeeswarm` [@ggbeeswarm] as appropriate. Refer to the documentation of these packages for their preferred citation formats (e.g., using `citation("meta")` in R).
